@@ -1,0 +1,12 @@
+Package: insertOperatorsAddin
+Title: Insert Operators Add-In
+Version: 0.1.0
+Authors@R: person("Dan", "Chaltiel", email = "dan.chaltiel@gmail.com", role = c("aut", "cre"))
+Description: Adds keyboard shortcuts to operators like magrittr pipes.
+Depends:
+    R (>= 3.0.0)
+Imports:
+    rstudioapi (>= 0.4)
+License: MIT + file LICENSE
+LazyData: true
+RoxygenNote: 7.0.2

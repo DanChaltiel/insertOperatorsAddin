@@ -1,0 +1,21 @@
+Name: Insert %in%
+Description: Inserts `%in%` at the cursor position.
+Binding: insertInAddin
+Interactive: false
+
+Name: Insert %T>% (magrittr tee operator)
+Description: Inserts `%T<%` (magrittr tee operator) at the cursor position.
+Binding: insertToppAddin
+Interactive: false
+
+Name: Insert %$% (magrittr exposition pipe-operator)
+Description: Inserts `%$%` (magrittr exposition pipe-operator) at the cursor position.
+Binding: insertExpAddin
+Interactive: false
+
+Name: Insert %<>% (magrittr compound assignment pipe-operator)
+Description: Inserts `%<>%` (magrittr compound assignment pipe-operator) at the cursor position.
+Binding: insertCompAssAddin
+Interactive: false
+
+
