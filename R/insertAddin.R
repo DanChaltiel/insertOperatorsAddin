@@ -44,3 +44,14 @@ insertCompAssAddin = function() {
   rstudioapi::insertText(" %<>% ")
 }
 
+#' Insert \%@\% (rlang attribute getter pipe-operator).
+#'
+#' Call this function as an addin to insert ` \%@\% ` at the cursor position.
+#' 
+#' @seealso [rlang::`%@%`]
+#'
+#' @export
+insertGetAttrAddin = function() {
+  rstudioapi::insertText(" %@% ")
+}
+

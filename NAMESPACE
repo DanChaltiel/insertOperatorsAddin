@@ -2,5 +2,6 @@
 
 export(insertCompAssAddin)
 export(insertExpAddin)
+export(insertGetAttrAddin)
 export(insertInAddin)
 export(insertToppAddin)

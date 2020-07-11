@@ -18,4 +18,7 @@ Description: Inserts `%<>%` (magrittr compound assignment pipe-operator) at the 
 Binding: insertCompAssAddin
 Interactive: false
 
-
+Name: Insert %@% (rlang attribute getter pipe-operator)
+Description: Inserts %@% (rlang attribute getter pipe-operator) at the cursor position.
+Binding: insertGetAttrAddin
+Interactive: false
