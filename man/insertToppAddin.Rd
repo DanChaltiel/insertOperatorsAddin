@@ -7,5 +7,8 @@
 insertToppAddin()
 }
 \description{
-Call this function as an addin to insert \code{ \%T>\% } at the cursor position.
+Call this function as an addin to insert ` \%T>\% ` at the cursor position.
+}
+\seealso{
+[magrittr::`%T>%`]
 }

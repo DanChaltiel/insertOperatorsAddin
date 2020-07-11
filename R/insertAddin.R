@@ -1,8 +1,8 @@
-# TODO: add SeeAlso in manuals
-
 #' Insert \%in\%.
 #'
-#' Call this function as an addin to insert \code{ \%in\% } at the cursor position.
+#' Call this function as an addin to insert ` \%in\% ` at the cursor position.
+#' 
+#' @seealso [base::`%in%`]
 #'
 #' @export
 insertInAddin = function() {
@@ -11,7 +11,9 @@ insertInAddin = function() {
 
 #' Insert \%T>\% (magrittr tee operator).
 #'
-#' Call this function as an addin to insert \code{ \%T>\% } at the cursor position.
+#' Call this function as an addin to insert ` \%T>\% ` at the cursor position.
+#' 
+#' @seealso [magrittr::`%T>%`]
 #'
 #' @export
 insertToppAddin = function() {
@@ -21,7 +23,9 @@ insertToppAddin = function() {
 
 #' Insert \%$\% (magrittr exposition pipe-operator).
 #'
-#' Call this function as an addin to insert \code{ \%$\% } at the cursor position.
+#' Call this function as an addin to insert ` \%$\% ` at the cursor position.
+#' 
+#' @seealso [magrittr::`%$%`]
 #'
 #' @export
 insertExpAddin = function() {
@@ -31,7 +35,9 @@ insertExpAddin = function() {
 
 #' Insert \%<>\% (magrittr compound assignment pipe-operator).
 #'
-#' Call this function as an addin to insert \code{ \%<>\% } at the cursor position.
+#' Call this function as an addin to insert ` \%<>\% ` at the cursor position.
+#' 
+#' @seealso [magrittr::`%<>%`]
 #'
 #' @export
 insertCompAssAddin = function() {

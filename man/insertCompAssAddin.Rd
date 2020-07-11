@@ -7,5 +7,8 @@
 insertCompAssAddin()
 }
 \description{
-Call this function as an addin to insert \code{ \%<>\% } at the cursor position.
+Call this function as an addin to insert ` \%<>\% ` at the cursor position.
+}
+\seealso{
+[magrittr::`%<>%`]
 }
